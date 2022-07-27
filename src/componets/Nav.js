@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/navBar.css';
 import {useState, useEffect} from 'react';
 import {getTopNav} from '../data/navbar'
 

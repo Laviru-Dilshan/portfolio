@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 *,::before,::after{
   margin: 0;
@@ -33,7 +33,7 @@ margin-right: auto;
 
 /*navbar*/
 
-/*.nav_wrapper{
+.nav_wrapper{
   background: black;
 }
 
@@ -98,7 +98,7 @@ margin-right: auto;
 
 /*animate icon*/
 
-/*.toggler .line_1 {
+.toggler .line_1 {
   transform: translate(-5px, 7px) rotate(-45deg);
 }
 
@@ -108,4 +108,4 @@ margin-right: auto;
 
 .toggler .line_3 {
   transform: translate(-5px, -7px) rotate(45deg);
-}*/
+}
