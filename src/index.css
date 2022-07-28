@@ -1,4 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');*/
 
 *,::before,::after{
   margin: 0;
@@ -6,7 +8,7 @@
   box-sizing: border-box;
 }
 
-body{
+/*body{
   font-family: 'Patua One', cursive;
 }
 

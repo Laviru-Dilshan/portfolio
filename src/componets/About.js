@@ -1,13 +1,9 @@
 import React from 'react';
-import about from '../img/about.jpg';
 import profile from '../img/profile.png'
 import '../css/about.css'
 
 const Container = () => (
     <div>
-    <h1 className='welcome'>
-        console.log("Hellow World..!")
-    </h1>
     <img src={profile} className="profile" alt="profile" />
     <h1 className='about_me'>
         About Me,

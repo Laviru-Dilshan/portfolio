@@ -16,14 +16,13 @@ body{
 }
 .profile{
     width: 20%;
-    display: flex;
+    display: block;
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     border: 5px solid #191a19;
-    perspective: 0.5em;
 }
 
 @media screen and (max-width:768px) {
@@ -31,33 +30,6 @@ body{
         width: 50%;
     }
 }
-
-@keyframes pulsate {
-    100% {
-      /* Larger blur radius */
-      text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #5800ff,
-        0 0 80px #5800ff,
-        0 0 90px #5800ff,
-        0 0 100px #5800ff,
-        0 0 150px #5800ff;
-    }
-   0% {
-      /* A slightly smaller blur radius */
-      text-shadow:
-        0 0 4px #fff,
-        0 0 10px #fff,
-        0 0 18px #fff,
-        0 0 38px #fff80a,
-        0 0 73px #fff80a,
-        0 0 80px #fff80a,
-        0 0 94px #fff80a,
-        0 0 140px #fff80a;
-    }
-  }
 
 .about_me{
     color: #293462;
