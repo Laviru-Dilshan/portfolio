@@ -35,7 +35,7 @@ margin-right: auto;
 /*navbar*/
 
 .nav_wrapper{
-  background: #293462;
+  background: #030303;
 }
 
 .nav{
@@ -62,7 +62,7 @@ margin-right: auto;
 }
 
 .nav_link{
-  color: aqua;
+  color: #f6f6f6;
 }
 
 .toggler_icon{
@@ -84,11 +84,11 @@ margin-right: auto;
   }
   .nav_menu{
     position: fixed;
-    background: #293462;
+    background: #08080a;
     flex-direction: column;
     top: 10vh;
-    width: 75%;
-    height: 90vh;
+    width: 100%;
+    height: 50vh;
     right: 0;
     transform: translateX(100%);
     transition: 0.5s ease; 
