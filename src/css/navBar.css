@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kaushan+Script&display=swap');
 
 *,::before,::after{
   margin: 0;
@@ -34,21 +35,23 @@ margin-right: auto;
 /*navbar*/
 
 .nav_wrapper{
-  background: black;
+  background: #293462;
 }
 
 .nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
+  height: 8vh;
 
 }
 
 .nav_brand{
+  /*font-family: 'Chakra Petch', sans-serif;*/
+  font-family: 'Kaushan Script', cursive;
   font-size: 30px;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
+  font-weight: 500;
+  color: #f6f6f6;
 }
 
 .nav_menu{

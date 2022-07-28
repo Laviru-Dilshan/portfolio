@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="container">
                 <nav className="nav">
                     <a href="#" className="nav_brand">
-                        AAAAA
+                        Laviru.ml
                     </a>
                     <ul className={collapser}>
                         {navItems.map(item => (

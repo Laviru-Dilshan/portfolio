@@ -1,3 +1,60 @@
-body{
-    width: fit-content;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap');
+
+
+.welcome{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 10em;
+    margin-top: 0.5em;
+    margin-left: 0.25em;
+    font-size: 2em;
+    color: #fcf8e8;
+}
+.profile{
+    width: 20%;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #191a19;
+    perspective: 0.5em;
+}
+
+@media screen and (max-width:768px) {
+    .profile{
+        width: 50%;
+    }
+}
+
+.about_me{
+    color: #293462;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #f2df3a,
+        0 0 82px #f2df3a,
+        0 0 92px #f2df3a,
+        0 0 102px #f2df3a,
+        0 0 151px #f2df3a;
+    font-family: 'Chakra Petch', sans-serif;;
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.about_p{
+    font-family: 'Space Mono', monospace;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    color: #fcf8e8;
+    text-align: center;
+    margin-right: 1.5em;
 }
