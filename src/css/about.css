@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap');
 
+body{
+    background-color: #191a19;
+}
 
 .welcome{
     font-family: 'Amaranth', sans-serif;
@@ -13,8 +16,7 @@
 }
 .profile{
     width: 20%;
-    display: block;
-    box-sizing: border-box;
+    display: flex;
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: auto;
@@ -30,18 +32,37 @@
     }
 }
 
+@keyframes pulsate {
+    100% {
+      /* Larger blur radius */
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5800ff,
+        0 0 80px #5800ff,
+        0 0 90px #5800ff,
+        0 0 100px #5800ff,
+        0 0 150px #5800ff;
+    }
+   0% {
+      /* A slightly smaller blur radius */
+      text-shadow:
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px #fff80a,
+        0 0 73px #fff80a,
+        0 0 80px #fff80a,
+        0 0 94px #fff80a,
+        0 0 140px #fff80a;
+    }
+  }
+
 .about_me{
     color: #293462;
-    text-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #f2df3a,
-        0 0 82px #f2df3a,
-        0 0 92px #f2df3a,
-        0 0 102px #f2df3a,
-        0 0 151px #f2df3a;
-    font-family: 'Chakra Petch', sans-serif;;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 3em;
     display: block;
     text-align: center;

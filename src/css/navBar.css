@@ -42,7 +42,7 @@ margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 8vh;
+  height: 10vh;
 
 }
 
@@ -84,10 +84,10 @@ margin-right: auto;
   }
   .nav_menu{
     position: fixed;
-    background: black;
+    background: #293462;
     flex-direction: column;
     top: 10vh;
-    width: 50%;
+    width: 75%;
     height: 90vh;
     right: 0;
     transform: translateX(100%);
