@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.moon{
+    width: 100%;
+    height: 50vh;
+}
+
+.homebg{
+    position:relative;
+}
+

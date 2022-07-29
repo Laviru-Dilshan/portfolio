@@ -6,7 +6,7 @@ function Home() {
     return (  
         <div className='homebg'>
             <img src={img} className='moon' alt="moon img"/>
-            <h1>Hellow World;</h1>
+            <h1 className='text'>Hellow World;</h1>
         </div>
     );
 }
