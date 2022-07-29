@@ -1,19 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200&family=Poppins:wght@300&display=swap');
 
 body{
     background-color: #191a19;
 }
 
-.welcome{
-    font-family: 'Amaranth', sans-serif;
-    font-size: 10em;
-    margin-top: 0.5em;
-    margin-left: 0.25em;
-    font-size: 2em;
-    color: #fcf8e8;
-}
 .profile{
     width: 20%;
     display: block;
@@ -43,7 +34,7 @@ body{
 }
 
 .about_p{
-    font-family: 'Space Mono', monospace;
+    font-family: 'Gantari', sans-serif;
     font-size: 1.25em;
     font-weight: bold;
     margin-left: 1.5em;
