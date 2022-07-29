@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Patua One', cursive;
-}
-
 *{
   text-decoration: none;
 }
@@ -51,7 +47,7 @@ margin-right: auto;
   font-family: 'Kaushan Script', cursive;
   font-size: 30px;
   font-weight: 500;
-  color: #f6f6f6;
+  color: var(--color-white);
 }
 
 .nav_menu{
@@ -83,6 +79,8 @@ margin-right: auto;
     display: block;
   }
   .nav_menu{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     position: fixed;
     background: #08080a;
     flex-direction: column;
