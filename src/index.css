@@ -92,7 +92,7 @@ img{
 }
 
 .footer_text{
-    text-align: center;
+    text-align:center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     color: var(--color-light);
@@ -109,4 +109,54 @@ img{
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+}
+
+.title{
+    color: #1a191b;
+    text-transform: uppercase;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(248, 248, 245);
+    font-size: 2.5em;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.skillsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.li-item{
+    color: aqua;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: var(--color-primary) solid 2px;
+}
+
+@media screen and (max-width:768px){
+    .skillsList{
+        display: block;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li-item{
+        margin-bottom: 2em;
+    }
 }
