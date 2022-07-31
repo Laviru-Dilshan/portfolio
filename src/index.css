@@ -131,7 +131,7 @@ img{
 }
 
 .li-item{
-    color: aqua;
+    color: var(--color-primary-varient);
     display: block;
     text-align: center;
     padding-bottom: 10px;
@@ -142,7 +142,7 @@ img{
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    border: var(--color-primary) solid 2px;
+    border: var(--color-light) solid 2px;
 }
 
 @media screen and (max-width:768px){
