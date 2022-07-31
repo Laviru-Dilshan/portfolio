@@ -124,8 +124,7 @@ img{
 }
 
 .skillsList{
-    display: flex;
-    flex-direction: row;
+    display: grid;
     justify-content: left;
     
 }
