@@ -127,6 +127,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: left;
+    
 }
 
 .li-item{
