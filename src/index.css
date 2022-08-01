@@ -124,25 +124,7 @@ img{
 }
 
 .skillsList{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    
-}
-
-.li-item{
-    color: var(--color-primary-varient);
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    border: var(--color-light) solid 2px;
+    display: flexbox;
 }
 
 @media screen and (max-width:768px){
@@ -155,9 +137,5 @@ img{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    }
-
-    .li-item{
-        margin-bottom: 2em;
     }
 }
