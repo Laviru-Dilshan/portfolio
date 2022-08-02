@@ -132,8 +132,8 @@ img{
 .skills li{
     color: var(--color-primary);
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-top: 1em;
@@ -148,18 +148,23 @@ img{
     .skills li:hover{
         width: 100%;
     }
+    .project-box{
+        display: block;
+    }
 }
 
 .project-box{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     margin-left: 2em;
     margin-right: 2em;
+    justify-content: center;
+    margin-bottom: 3em;
     padding-left: 2em;
     padding-top: 2em;
-    margin-bottom: 2em;
     padding-bottom: 2em;
     padding-right: 2em;
-    justify-content: center;
     border: var(--color-primary) solid 2px;
     border-radius: 10px;
 }
@@ -178,6 +183,7 @@ img{
 .project-box img{
     padding-bottom: 1em;
     display: block;
+    border-radius: 10px;
 }
 
 .project-box p{
