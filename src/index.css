@@ -144,24 +144,8 @@ img{
     border-radius: 10px;
 }
 
-.skills li:hover{
-    width: 2em;
-}
-
-/*
 @media screen and (max-width:768px){
-    .skillsList{
-        display: block;
-        margin-top: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        margin-right: 2em;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .li-item{
-        margin-bottom: 2em;
-    }
+    .skills li:hover{
+        width: 100%;
 }
-*/
+}
