@@ -4,18 +4,20 @@ import {SiMysql,SiMongodb} from 'react-icons/si';
 
 function Skills() {
      return ( 
-        <div className='skillsList'>
+        <div>
             <h1 className='title'>Few Skills i Have</h1>
-                <FaReact size={200}/>
-                <FaNode size={200}/>
-                <FaJsSquare size={200}/>
-                <FaPhp size={200}/>
-                <SiMysql size={200}/>
-                <SiMongodb size={200}/>
-                <FaHtml5 size={200}/>
-                <FaCss3Alt size={200}/>
-                <FaBootstrap size={200}/>
-                <FaPython size={200}/>
+            <div className="skillsList">
+                <FaReact size={175}/>
+                <FaNode size={175}/>
+                <FaJsSquare size={175}/>
+                <FaPhp size={175}/>
+                <SiMysql size={175}/>
+                <SiMongodb size={175}/>
+                <FaHtml5 size={175}/>
+                <FaCss3Alt size={175}/>
+                <FaBootstrap size={175}/>
+                <FaPython size={175}/>
+            </div>
         </div>
      );
 }
