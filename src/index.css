@@ -127,6 +127,7 @@ img{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .skills li{
@@ -148,4 +149,37 @@ img{
     .skills li:hover{
         width: 100%;
 }
+}
+
+.project-box{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: var(--color-primary) solid 2px;
+    border-radius: 10px;
+}
+
+.project-box a {
+    color: var(--color-primary-varient);
+    display: flex;
+    text-decoration: underline;
+}
+
+.project-box h2{
+    padding-bottom: 1.5em;
+}
+
+.project-box img{
+    padding-bottom: 1em;
+}
+
+.project-box p{
+    padding-bottom: 1em;
 }

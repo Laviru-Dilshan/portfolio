@@ -5,7 +5,7 @@ import {SiMysql,SiMongodb} from 'react-icons/si';
 function Skills() {
      return ( 
         <div>
-            <h1 className='title'>Few Skills i Have</h1>
+            <h1 className='title' id='skills'>Few Skills i Have</h1>
                 <ul className='skills'>
                     <li><FaReact size={175}/><br />React Js</li>
                     <li><FaNode size={175}/><br />Node Js</li>
