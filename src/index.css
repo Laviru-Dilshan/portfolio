@@ -88,7 +88,6 @@ a:hover{
 img{
     display: block;
     width: 100%;
-    object-fit: cover;
 }
 
 .footer_text{
@@ -133,8 +132,8 @@ img{
 .skills li{
     color: var(--color-primary);
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-top: 1em;
@@ -148,10 +147,11 @@ img{
 @media screen and (max-width:768px){
     .skills li:hover{
         width: 100%;
-}
+    }
 }
 
 .project-box{
+    display: block;
     margin-left: 2em;
     margin-right: 2em;
     padding-left: 2em;
@@ -159,8 +159,6 @@ img{
     margin-bottom: 2em;
     padding-bottom: 2em;
     padding-right: 2em;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     border: var(--color-primary) solid 2px;
     border-radius: 10px;
@@ -170,6 +168,7 @@ img{
     color: var(--color-primary-varient);
     display: flex;
     text-decoration: underline;
+    justify-content: center;
 }
 
 .project-box h2{
@@ -178,6 +177,7 @@ img{
 
 .project-box img{
     padding-bottom: 1em;
+    display: block;
 }
 
 .project-box p{
