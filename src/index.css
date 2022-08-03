@@ -148,18 +148,27 @@ img{
     .skills li:hover{
         width: 100%;
     }
-    .project-box{
+    .box{
         display: block;
     }
 }
 
-.project-box{
+.box{
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    .box{
+        display: block;
+    }
+}
+
+
+.project-box{
+    align-items: center;
+    justify-content: center;
     margin-left: 2em;
     margin-right: 2em;
-    justify-content: center;
     margin-bottom: 3em;
     padding-left: 2em;
     padding-top: 2em;
@@ -167,6 +176,10 @@ img{
     padding-right: 2em;
     border: var(--color-primary) solid 2px;
     border-radius: 10px;
+}
+
+.project-box:hover{
+    border-color: var(--color-primary-varient);
 }
 
 .project-box a {
