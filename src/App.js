@@ -3,7 +3,7 @@ import About from "./componets/About"
 import Home from "./componets/Home";
 import Skills from "./componets/Skills";
 import Projects from "./componets/Projects";
-import Contact from "./componets/Contact";
+import ContactUs from "./componets/Contact";
 import Footer from "./componets/Footer";
 
 //import Home from "./componets/Home";
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      <ContactUs />
       <Footer />
     </div>
   );

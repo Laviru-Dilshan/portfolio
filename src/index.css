@@ -174,7 +174,7 @@ img{
     padding-top: 2em;
     padding-bottom: 2em;
     padding-right: 2em;
-    border: var(--color-primary) solid 2px;
+    border: var(--color-primary) solid 1px;
     border-radius: 10px;
 }
 
@@ -201,4 +201,64 @@ img{
 
 .project-box p{
     padding-bottom: 1em;
+}
+
+.form{
+    background-color: var(--color-bg);
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 10px;
+    border: var(--color-primary-varient) solid 2px;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 3em;
+}
+
+.form input{
+    background-color: var(--color-light);
+    font-weight: 700;
+    color:var(--color-bg);
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: var(--color-primary-varient) solid 2px;
+
+}
+
+.form textarea{
+    height: 10em;
+    background-color: var(--color-light);
+    font-weight: 700;
+    color:var(--color-bg);
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: var(--color-primary-varient) solid 2px;
+}
+.form textarea:hover{
+    border-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.form input:hover{
+    border-color: var(--color-primary);
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .form{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }
