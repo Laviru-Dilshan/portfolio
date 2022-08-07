@@ -1,6 +1,7 @@
 import React from 'react';
-import {FaReact,FaNode,FaJsSquare,FaPhp,FaHtml5,FaCss3Alt,FaBootstrap,FaPython} from 'react-icons/fa';
+import {FaReact,FaNode,FaJsSquare,FaPhp,FaHtml5,FaCss3Alt,FaBootstrap,FaPython,FaWordpress} from 'react-icons/fa';
 import {SiMysql,SiMongodb} from 'react-icons/si';
+import {DiGhost} from 'react-icons/di'
 
 function Skills() {
      return ( 
@@ -17,6 +18,8 @@ function Skills() {
                     <li><FaCss3Alt size={175}/><br /> CSS</li>
                     <li><FaBootstrap size={175}/><br /> Bootstrap</li>
                     <li><FaPython size={175}/><br /> Python </li>
+                    <li><FaWordpress size={175}/><br /> Wordpress </li>
+                    <li><DiGhost size={175}/><br /> Ghost </li>
                 </ul>
         </div>
      );

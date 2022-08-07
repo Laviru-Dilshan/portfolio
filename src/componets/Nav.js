@@ -1,49 +1,58 @@
-import React from 'react';
-import '../css/navBar.css';
-import {useState, useEffect} from 'react';
-import {getTopNav} from '../data/navbar'
+import React, { useState } from "react";
+import "../css/navBar.css";
 
-const Navbar = () => {
-    const [navItems, setNavItems] = useState([]);
-    const [collapser, setCollapser] = useState('nav_menu');
-    const [togglerIcon, setTogglerIcon] = useState('toggler_icon')
-    useEffect(() => {
-        setNavItems(getTopNav())
-    },[]);
-    const ontoggler = () => {
-        collapser === 'nav_menu'
-        ? setCollapser('nav_collapse nav_menu')
-        : setCollapser('nav_menu');
-        togglerIcon === 'toggler_icon'
-        ? setTogglerIcon('toggler toggler_icon')
-        : setTogglerIcon('toggler_icon');
-    }
-    return (
-        <div className="nav_wrapper">
-            <div className="container">
-                <nav className="nav">
-                    <a href="#" className="nav_brand">
-                        Laviru.ml
-                    </a>
-                    <ul className={collapser}>
-                        {navItems.map(item => (
-                            <li key={item.id} className="nav_item">
-                            <a href={item.href} className="nav_link">{item.label}</a>
-                        </li>
-                        ))}
-                        <li className="nav_item">
-                            <a href="" className="nav_link"></a>
-                        </li>
-                    </ul>
-                    <div className={togglerIcon} onClick={ontoggler}>
-                        <div className="line_1"></div>
-                        <div className="line_2"></div>
-                        <div className="line_3"></div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    )
+function Navbar() {
+  const [active, setActive] = useState("nav__menu");
+  const [icon, setIcon] = useState("nav__toggler");
+  const navToggle = () => {
+    if (active === "nav__menu") {
+      setActive("nav__menu nav__active");
+    } else setActive("nav__menu");
+
+    // Icon Toggler
+    if (icon === "nav__toggler") {
+      setIcon("nav__toggler toggle");
+    } else setIcon("nav__toggler");
+  };
+  return (
+    <nav className="nav">
+      <a href="#" className="nav__brand">
+        Laviru.ml
+      </a>
+      <ul className={active}>
+        <li className="nav__item">
+          <a href="#" className="nav__link">
+            Home
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#" className="nav__link">
+            About
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#" className="nav__link">
+            Portfolio
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#" className="nav__link">
+            Skills
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#" className="nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <div onClick={navToggle} className={icon}>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
