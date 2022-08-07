@@ -22,11 +22,19 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 8vh;
-  background: rgb(0, 33, 65);
+  height: 10vh;
+  background: black;
+  margin-bottom: 0.5em;
 }
+
+.nav_item a:hover{
+  color: yellow;
+}
+
 .nav__brand {
+  font-family: 'Oleo Script Swash Caps', cursive;
   text-transform: none;
+  font-size: 2.5em;
 }
 
 .nav__menu {
@@ -46,6 +54,8 @@ a {
   transition: 0.3s ease-in;
 }
 
+
+
 @media screen and (max-width: 768px) {
   .nav__toggler {
     display: block;
@@ -57,7 +67,7 @@ a {
     right: 0;
     height: 50vh;
     width: 100vw;
-    background: rgb(0, 33, 65);
+    background: black;
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;

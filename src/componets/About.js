@@ -5,7 +5,7 @@ import '../css/about.css'
 const Container = () => (
     <div>
     <img src={profile} className="profile" alt="profile" />
-    <h1 className='about_me'>
+    <h1 className='about_me' id='about'>
         About Me,
     </h1>
     <p className='about_p'>

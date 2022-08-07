@@ -26,22 +26,22 @@ function Navbar() {
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#about" className="nav__link">
             About
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
-            Portfolio
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#skills" className="nav__link">
             Skills
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#projects" className="nav__link">
+            Projects
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#contact" className="nav__link">
             Contact
           </a>
         </li>
