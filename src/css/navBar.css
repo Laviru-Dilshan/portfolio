@@ -18,6 +18,8 @@ a {
   color: rgb(204, 204, 204);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
 .nav {
   display: flex;
   align-items: center;
@@ -60,9 +62,11 @@ a {
   .nav__toggler {
     display: block;
     cursor: pointer;
+    border: 2px solid yellow;
+    border-radius: 10px;
   }
   .nav__menu {
-    position: fixed;
+    position: absolute;
     top: 7vh;
     right: 0;
     height: 50vh;
@@ -70,7 +74,7 @@ a {
     background: black;
     flex-direction: column;
     transform: translateX(100%);
-    transition: 0.5s ease-in;
+    transition: 0.3s ease-in;
   }
 }
 /* Active Class */
