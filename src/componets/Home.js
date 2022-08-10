@@ -10,7 +10,7 @@ function Home() {
             <h1>Laviru Dilshan</h1>
             <h5>Fullstack Developer</h5>
             <a href=""><button className='btn'>Download CV</button></a>
-            <a href=""><button className='btn-primary'>Contact Me</button></a>
+            <a href="#contact"><button className='btn-primary'>Contact Me</button></a>
         </div>
         <div className='icons'>
             <a href="https://www.linkedin.com/in/laviru-dilshan-49524a239" target='_blank'><BsLinkedin /></a>
