@@ -4,7 +4,6 @@ import "../css/navBar.css";
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
-  const [nav, setNav] = useState("nav__menu");
 
   const navToggle = () => {
     if (active === "nav__menu" && window.scrollY === 0) {
@@ -18,23 +17,6 @@ function Navbar() {
       setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
   };
-
-  /*const scrollY = () => {
-    if (window.scrollY > 0){
-
-    }
-  }*/
-
-  //window.addEventListener("scroll", scrollY)
-
-  /*const changeNav = () => {
-    if (window.scrollY > 0){
-      console.log(window.scrollY)
-      setNav("nav_menuHide")
-    }else{
-      setNav("nav__menu")
-    }
-  }*/
   return (
     <nav className="nav">
       <a href="#" className="nav__brand">

@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 li {
   list-style: none;
@@ -36,7 +36,7 @@ a {
 .nav__brand {
   font-family: 'Oleo Script Swash Caps', cursive;
   text-transform: none;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 .nav__menu {
@@ -67,9 +67,9 @@ a {
   }
   .nav__menu {
     position:fixed;
-    top: 7vh;
+    top: 5vh;
     right: 0;
-    height: 50vh;
+    height: 100%;
     width: 100vw;
     background: black;
     flex-direction: column;

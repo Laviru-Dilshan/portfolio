@@ -6,7 +6,7 @@ function Footer() {
         <div>
             <hr />
             <div className='footer_text'>
-                <h3>© 2022 Laviru Dilshan All Rights Reserved</h3>
+                <h3 className='footer_line'>© 2022 Laviru Dilshan All Rights Reserved</h3>
                 <div className="footer_icons">
                     <a href="https://www.linkedin.com/in/laviru-dilshan-49524a239" target='_blank'><BsLinkedin /></a>
                     <a href="https://twitter.com/LaviruDilshan" target='_blank'><BsTwitter /></a>
