@@ -9,7 +9,7 @@ function Home() {
             <h1 className='text'>Hellow I'm</h1>
             <h1>Laviru Dilshan</h1>
             <h5>Fullstack Developer</h5>
-            <a href=""><button className='btn'>Download CV</button></a>
+            <a href="https://github.com/Laviru-Dilshan/portfolio/blob/master/src/CV.pdf"><button className='btn'>Download CV</button></a>
             <a href="#contact"><button className='btn-primary'>Contact Me</button></a>
         </div>
         <div className='icons'>
